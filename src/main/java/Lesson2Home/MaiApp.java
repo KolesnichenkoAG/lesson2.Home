@@ -3,7 +3,7 @@ package Lesson2Home;
 public class MaiApp {
     public static void main(String[] args) {
         int a = 5;
-        int b = 3;
+        int b = 9;
         if (a + b > 10 && a + b <= 20) {
             System.out.println("true");
         } else {
@@ -27,8 +27,7 @@ public class MaiApp {
         } return false;
     }
     public static void printWord(String Word, int x){
-        int i = 0;
-        for (; i < x; i ++){
+        for (int i = 0; i < x; i ++){
             System.out.print(Word + "  ");
         }
     }
